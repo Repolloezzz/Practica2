@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document3</title>
+</head>
+<style>
+
+body{
+    background-color: rgb(224, 170, 255);
+}
+.name{
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(136, 182, 255);
+    padding: 40px;
+    width: 20%;
+    border-radius: 20px;
+}
+.name label{
+    font-family: Arial;
+    color: rgb(235, 235, 235);
+    font-size: 18px;
+    font-weight: 800;
+
+}
+input{
+    background-color: rgb(243, 241, 238);
+    float: right;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    width: 57%;
+}
+.desc{
+    float: unset;
+    width: 100%;
+    margin-top: 10px;
+    height: 150px;
+}
+.boton{
+    background-color: rgb(62, 78, 255);
+    color: white;
+    float: unset;
+    width: 100%;
+    padding: 10px;
+}
+.barra{
+    background-color: red;
+    padding: 20px;
+    color: white;
+}
+.barra a{
+    color: white;
+    margin: 20px;
+    padding: 5px 20px 5px 20px;
+    text-decoration: none;
+    background-color: brown;
+}
+</style>
+<body>
+    <div class="barra">
+        <h2>barra de ejercicio</h2>
+        <a href="index.html">ej1</a>
+        <a href="2.html">ej2</a>
+        <a href="3.html">ej3</a>
+        <a href="4.html">ej4</a>
+        <a href="5.html">ej5</a>
+        <a href="6.html">ej6</a>
+    </div>
+    <div>
+        <form action="">
+            <div class="name">
+                <label for="">Nombre</label>
+                <input type="text" required placeholder="Escribe tu nombre"><br><br>
+                <label for="">Apellidos</label>
+                <input type="text" required placeholder="1er Apellido"><br><br>
+                <label for="">Email</label>
+                <input type="email" required placeholder="email"><br><br>
+                <label for="">Asunto</label>
+                <input type="text" required placeholder="titular de la consulta"><br><br>
+                <label for="">Mensaje</label><br>
+                <input class="desc" type="text" required placeholder="descrive brevemente en menos de 300 carácteres"><br><br>
+                <input class="boton" type="submit" value="enviar datos">
+            </div>
+        </form>
+    </div>
+</body>
+</html>
